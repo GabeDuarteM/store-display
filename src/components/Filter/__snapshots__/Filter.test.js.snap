@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <Filter /> should match component's defaultProps snapshot 1`] = `
+Object {
+  "className": null,
+}
+`;
+
+exports[`COMPONENT: <Filter /> should match component's propTypes snapshot 1`] = `
+Object {
+  "className": [Function],
+  "classes": [Function],
+}
+`;
+
+exports[`COMPONENT: <Filter /> should match component's snapshot 1`] = `
+<div
+  className="Filter-filter"
+>
+  <Connect(GenderRadioButtonFilterContainer) />
+  <Connect(SortDropdownFilterContainer) />
+</div>
+`;
+
+exports[`COMPONENT: <Filter /> should match component's style snapshot 1`] = `
+Object {
+  "filter": Object {
+    "backgroundColor": "white",
+    "display": "flex",
+    "justifyContent": "space-between",
+    "paddingBottom": 25,
+    "paddingLeft": 62,
+    "paddingRight": 62,
+    "paddingTop": 20,
+  },
+}
+`;

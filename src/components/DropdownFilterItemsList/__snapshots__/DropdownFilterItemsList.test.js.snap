@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <DropdownFilterItemsList /> should match component's propTypes snapshot 1`] = `undefined`;
+
+exports[`COMPONENT: <DropdownFilterItemsList /> should match component's snapshot 1`] = `
+<div
+  className="DropdownFilterItemsList-itemList DropdownFilterItemsList-itemList"
+>
+  <div
+    className="DropdownFilterItemsList-item DropdownFilterItemsList-item"
+    item={
+      Object {
+        "id": "price-asc",
+        "text": "Price: low to high",
+      }
+    }
+    key="price-asc"
+  >
+    Price: low to high
+  </div>
+  <div
+    className="DropdownFilterItemsList-item DropdownFilterItemsList-item"
+    item={
+      Object {
+        "id": "price-desc",
+        "text": "Price: high to low",
+      }
+    }
+    key="price-desc"
+  >
+    Price: high to low
+    <Jss(SvgIcon)
+      className="DropdownFilterItemsList-checkMark DropdownFilterItemsList-checkMark"
+      color="#6e8be3"
+      height="auto"
+      src=""
+      width={9}
+    />
+  </div>
+  <div
+    className="DropdownFilterItemsList-item DropdownFilterItemsList-item"
+    item={
+      Object {
+        "id": "rating-asc",
+        "text": "Rating: low to high",
+      }
+    }
+    key="rating-asc"
+  >
+    Rating: low to high
+  </div>
+  <div
+    className="DropdownFilterItemsList-item DropdownFilterItemsList-item"
+    item={
+      Object {
+        "id": "rating-desc",
+        "text": "Rating: high to low",
+      }
+    }
+    key="rating-desc"
+  >
+    Rating: high to low
+  </div>
+</div>
+`;
+
+exports[`COMPONENT: <DropdownFilterItemsList /> should match component's style snapshot 1`] = `
+Object {
+  "checkMark": Object {
+    "marginLeft": "auto",
+  },
+  "item": Object {
+    "&:hover": Object {
+      "backgroundColor": "#f4f6f7",
+    },
+    "alignItems": "center",
+    "color": "#585858",
+    "display": "flex",
+    "fontSize": 12,
+    "height": 36,
+    "padding": "0 16px",
+  },
+  "itemList": Object {
+    "backgroundColor": "white",
+    "border": "1px solid #e7e8ec",
+    "borderRadius": 3,
+    "boxShadow": "0px 2px 6px rgba(115,115,115,0.12)",
+    "boxSizing": "border-box",
+    "cursor": "pointer",
+    "marginTop": 4,
+    "position": "absolute",
+    "width": [Function],
+    "zIndex": 1,
+  },
+}
+`;

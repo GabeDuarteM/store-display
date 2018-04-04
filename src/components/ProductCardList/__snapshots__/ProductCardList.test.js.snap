@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <ProductCardList /> should match component's defaultProps snapshot 1`] = `
+Object {
+  "className": null,
+  "isLastPage": null,
+}
+`;
+
+exports[`COMPONENT: <ProductCardList /> should match component's propTypes snapshot 1`] = `
+Object {
+  "className": [Function],
+  "classes": [Function],
+  "handleClickLoadMore": [Function],
+  "isLastPage": [Function],
+  "products": [Function],
+  "toggleIsWishlisted": [Function],
+}
+`;
+
+exports[`COMPONENT: <ProductCardList /> should match component's snapshot 1`] = `
+<div
+  className="ProductCardList-productCardList"
+>
+  <Jss(ProductCard)
+    brand="NIKE"
+    className="ProductCardList-productCard"
+    currency="R$"
+    gender="woman"
+    id="5a51804f840a30ab47a631a2"
+    imgUrl=""
+    isNew={true}
+    isWishlisted={false}
+    key="5a51804f840a30ab47a631a2"
+    name="Candacechase Blackturner"
+    price={27.59}
+    rating={10}
+    toggleIsWishlisted={[Function]}
+  />
+  <div
+    className="ProductCardList-loadMoreButtonRoot"
+  />
+</div>
+`;
+
+exports[`COMPONENT: <ProductCardList /> should match component's snapshot with custom props 1`] = `
+<div
+  className="ProductCardList-productCardList"
+>
+  <Jss(ProductCard)
+    brand="NIKE"
+    className="ProductCardList-productCard"
+    currency="R$"
+    gender="woman"
+    id="5a51804f840a30ab47a631a2"
+    imgUrl=""
+    isNew={true}
+    isWishlisted={false}
+    key="5a51804f840a30ab47a631a2"
+    name="Candacechase Blackturner"
+    price={27.59}
+    rating={10}
+    toggleIsWishlisted={[Function]}
+  />
+  <div
+    className="ProductCardList-loadMoreButtonRoot"
+  >
+    <Jss(Button)
+      className="ProductCardList-loadMoreButton"
+      disabled={false}
+      onClick={[Function]}
+      width={280}
+    >
+      Load more
+    </Jss(Button)>
+  </div>
+</div>
+`;
+
+exports[`COMPONENT: <ProductCardList /> should match component's style snapshot 1`] = `
+Object {
+  "loadMoreButton": Object {
+    "margin": 25,
+  },
+  "loadMoreButtonRoot": Object {
+    "alignItems": "center",
+    "display": "flex",
+    "justifyContent": "center",
+    "width": "100%",
+  },
+  "productCard": Object {
+    "flex": "none",
+    "margin": 15,
+  },
+  "productCardList": Object {
+    "alignItems": "center",
+    "display": "flex",
+    "flexWrap": "wrap",
+    "justifyContent": "center",
+    "margin": "0 47px",
+    "padding": "15px 0",
+  },
+}
+`;

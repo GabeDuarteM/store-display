@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <AppWrapper /> should match component's propTypes snapshot 1`] = `
+Object {
+  "children": [Function],
+  "store": [Function],
+}
+`;
+
+exports[`COMPONENT: <AppWrapper /> should match component's snapshot 1`] = `
+<React.Fragment>
+  thing to be 
+  <span>
+    wrapped
+  </span>
+</React.Fragment>
+`;
+
+exports[`COMPONENT: <AppWrapper /> should match component's style snapshot 1`] = `
+Object {
+  "@global body": Object {
+    "backgroundColor": "#f5f5f5",
+    "fontFamily": "Montserrat, sans-serif",
+  },
+}
+`;

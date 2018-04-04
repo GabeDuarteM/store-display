@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <SvgIcon /> should match component's defaultProps snapshot 1`] = `
+Object {
+  "className": null,
+  "color": null,
+  "height": "auto",
+  "width": "auto",
+}
+`;
+
+exports[`COMPONENT: <SvgIcon /> should match component's propTypes snapshot 1`] = `
+Object {
+  "className": [Function],
+  "classes": [Function],
+  "color": [Function],
+  "height": [Function],
+  "src": [Function],
+  "width": [Function],
+}
+`;
+
+exports[`COMPONENT: <SvgIcon /> should match component's snapshot 1`] = `
+<span
+  className="SvgIcon-svgIcon SvgIcon-svgIcon"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "",
+    }
+  }
+/>
+`;
+
+exports[`COMPONENT: <SvgIcon /> should match component's style snapshot 1`] = `
+Object {
+  "svgIcon": Object {
+    "display": "block",
+    "fill": [Function],
+    "height": [Function],
+    "width": [Function],
+  },
+}
+`;

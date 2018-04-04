@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <DropdownFilter /> should match component's defaultProps snapshot 1`] = `
+Object {
+  "label": null,
+  "menuIsOpen": false,
+  "width": 200,
+}
+`;
+
+exports[`COMPONENT: <DropdownFilter /> should match component's propTypes snapshot 1`] = `
+Object {
+  "handleChangeMenuIsOpen": [Function],
+  "items": [Function],
+  "label": [Function],
+  "menuIsOpen": [Function],
+  "onChange": [Function],
+  "selectedItem": [Function],
+  "width": [Function],
+}
+`;
+
+exports[`COMPONENT: <DropdownFilter /> should match component's snapshot 1`] = `
+<Downshift
+  breakingChanges={Object {}}
+  defaultHighlightedIndex={null}
+  defaultInputValue=""
+  defaultIsOpen={false}
+  defaultSelectedItem={null}
+  environment={[Window]}
+  getA11yStatusMessage={[Function]}
+  isOpen={false}
+  itemToString={[Function]}
+  onChange={[Function]}
+  onInputValueChange={[Function]}
+  onOuterClick={[Function]}
+  onSelect={[Function]}
+  onStateChange={[Function]}
+  onUserAction={[Function]}
+  render={[Function]}
+  selectedItem={
+    Object {
+      "id": "item-2",
+      "text": "item 2",
+    }
+  }
+  selectedItemChanged={[Function]}
+  stateReducer={[Function]}
+/>
+`;

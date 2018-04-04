@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <RadioButtonFilterItem /> should match component's defaultProps snapshot 1`] = `
+Object {
+  "active": false,
+}
+`;
+
+exports[`COMPONENT: <RadioButtonFilterItem /> should match component's propTypes snapshot 1`] = `
+Object {
+  "active": [Function],
+  "classes": [Function],
+  "onChange": [Function],
+  "text": [Function],
+}
+`;
+
+exports[`COMPONENT: <RadioButtonFilterItem /> should match component's snapshot 1`] = `
+<label
+  className="RadioButtonFilterItem-radioButtonFilterItem"
+>
+  <input
+    checked={false}
+    className="RadioButtonFilterItem-hiddenInput"
+    onChange={[Function]}
+    type="radio"
+  />
+  Text
+</label>
+`;
+
+exports[`COMPONENT: <RadioButtonFilterItem /> should match component's style snapshot 1`] = `
+Object {
+  "hiddenInput": Object {
+    "display": "none",
+  },
+  "radioButtonFilterItem": Object {
+    "&.active": Object {
+      "backgroundColor": "#6F8CE3",
+      "border": "1px solid #6F8CE3 !important",
+      "color": "white",
+    },
+    "&:first-child": Object {
+      "borderBottomLeftRadius": "3px",
+      "borderLeft": "1px solid #d7d8db",
+      "borderTopLeftRadius": "3px",
+    },
+    "&:last-child": Object {
+      "borderBottomRightRadius": "3px",
+      "borderRight": "1px solid #d7d8db",
+      "borderTopRightRadius": "3px",
+    },
+    "alignItems": "center",
+    "backgroundColor": "white",
+    "border": "1px solid #d7d8db",
+    "borderLeft": "0",
+    "borderRight": "0",
+    "boxSizing": "border-box",
+    "color": "#656565",
+    "display": "flex",
+    "fontSize": 12,
+    "height": 36,
+    "justifyContent": "center",
+    "width": 160,
+  },
+}
+`;

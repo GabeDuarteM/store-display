@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <AppWrapperContainer /> should match component's snapshot 1`] = `
+<AppWrapper
+  classes={Object {}}
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <div>
+    mock children
+  </div>
+</AppWrapper>
+`;

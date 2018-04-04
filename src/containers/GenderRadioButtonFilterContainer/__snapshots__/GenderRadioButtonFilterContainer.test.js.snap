@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <GenderRadioButtonFilterContainer /> should match component's snapshot 1`] = `
+<RadioButtonFilter
+  activeOption="woman"
+  classes={
+    Object {
+      "radioButtonFilter": "RadioButtonFilter-radioButtonFilter",
+    }
+  }
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "id": "woman",
+        "text": "Woman",
+      },
+      Object {
+        "id": "man",
+        "text": "Man",
+      },
+    ]
+  }
+/>
+`;

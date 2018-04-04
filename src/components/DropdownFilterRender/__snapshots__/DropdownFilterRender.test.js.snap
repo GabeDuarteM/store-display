@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <DropdownFilterRender /> should match component's defaultProps snapshot 1`] = `
+Object {
+  "label": null,
+}
+`;
+
+exports[`COMPONENT: <DropdownFilterRender /> should match component's propTypes snapshot 1`] = `
+Object {
+  "classes": [Function],
+  "getButtonProps": [Function],
+  "getItemProps": [Function],
+  "getLabelProps": [Function],
+  "handleChangeMenuIsOpen": [Function],
+  "isOpen": [Function],
+  "items": [Function],
+  "label": [Function],
+  "selectedItem": [Function],
+  "width": [Function],
+}
+`;
+
+exports[`COMPONENT: <DropdownFilterRender /> should match component's snapshot 1`] = `
+<div
+  className="DropdownFilterRender-renderRoot"
+>
+  <div>
+    <Jss(DropdownFilterInput)
+      getButtonProps={[Function]}
+      handleChangeMenuIsOpen={[Function]}
+      isOpen={true}
+      selectedItem={
+        Object {
+          "id": "item-1",
+          "text": "item 1",
+        }
+      }
+      width={200}
+    />
+    <Jss(DropdownFilterItemsList)
+      getItemProps={[Function]}
+      items={
+        Array [
+          Object {
+            "id": "item-1",
+            "text": "item 1",
+          },
+          Object {
+            "id": "item-2",
+            "text": "item 2",
+          },
+          Object {
+            "id": "item-3",
+            "text": "item 3",
+          },
+        ]
+      }
+      selectedItem={
+        Object {
+          "id": "item-1",
+          "text": "item 1",
+        }
+      }
+      width={200}
+    />
+  </div>
+</div>
+`;
+
+exports[`COMPONENT: <DropdownFilterRender /> should match component's style snapshot 1`] = `
+Object {
+  "label": Object {
+    "color": "#585858",
+    "fontSize": 12,
+    "fontWeight": 500,
+    "marginRight": 8,
+  },
+  "renderRoot": Object {
+    "alignItems": "center",
+    "cursor": "default",
+    "display": "flex",
+    "userSelect": "none",
+  },
+}
+`;

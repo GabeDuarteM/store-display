@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <Button /> should match component's propTypes snapshot 1`] = `
+Object {
+  "children": [Function],
+  "className": [Function],
+  "classes": [Function],
+  "disabled": [Function],
+  "onClick": [Function],
+  "width": [Function],
+}
+`;
+
+exports[`COMPONENT: <Button /> should match component's snapshot 1`] = `
+<button
+  className="Button-button Button-button"
+  disabled={false}
+  onClick={[Function]}
+  width={280}
+>
+  Button text
+</button>
+`;
+
+exports[`COMPONENT: <Button /> should match component's style snapshot 1`] = `
+Object {
+  "button": Object {
+    "alignItems": "center",
+    "backgroundColor": "#6e8be3",
+    "border": 0,
+    "borderRadius": 3,
+    "color": "#ffffff",
+    "cursor": [Function],
+    "display": "flex",
+    "fontSize": 14,
+    "height": 50,
+    "justifyContent": "center",
+    "userSelect": "none",
+    "width": [Function],
+  },
+}
+`;

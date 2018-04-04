@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <RadioButtonFilter /> should match component's propTypes snapshot 1`] = `
+Object {
+  "activeOption": [Function],
+  "classes": [Function],
+  "onChange": [Function],
+  "options": [Function],
+}
+`;
+
+exports[`COMPONENT: <RadioButtonFilter /> should match component's snapshot 1`] = `
+<div
+  className="RadioButtonFilter-radioButtonFilter"
+>
+  <Jss(RadioButtonFilterItem)
+    active={true}
+    key="woman"
+    onChange={[Function]}
+    text="Woman"
+  />
+  <Jss(RadioButtonFilterItem)
+    active={false}
+    key="man"
+    onChange={[Function]}
+    text="Man"
+  />
+</div>
+`;
+
+exports[`COMPONENT: <RadioButtonFilter /> should match component's style snapshot 1`] = `
+Object {
+  "radioButtonFilter": Object {
+    "display": "flex",
+    "userSelect": "none",
+  },
+}
+`;

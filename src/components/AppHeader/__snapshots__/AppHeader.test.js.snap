@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <AppHeader /> should match component's propTypes snapshot 1`] = `
+Object {
+  "classes": [Function],
+}
+`;
+
+exports[`COMPONENT: <AppHeader /> should match component's snapshot 1`] = `
+<div
+  className="AppHeader-appHeader"
+>
+  STORE DISPLAY
+</div>
+`;
+
+exports[`COMPONENT: <AppHeader /> should match component's style snapshot 1`] = `
+Object {
+  "appHeader": Object {
+    "color": "#585858",
+    "fontFamily": "Montserrat",
+    "fontSize": 24,
+    "fontWeight": 400,
+    "textAlign": "center",
+  },
+}
+`;

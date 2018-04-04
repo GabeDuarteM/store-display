@@ -1,0 +1,73 @@
+{
+  "name": "store-display",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gabriel Duarte <gabrielqduarte@gmail.com> (https://github.com/GabrielDuarteM/)",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "test": "jest --coverage",
+    "test:w": "yarn test --watch",
+    "lint": "eslint **/*.js --ignore-path .gitignore",
+    "lint:fix": "yarn lint --fix",
+    "sg": "yarn styleguide",
+    "styleguide": "cross-env NODE_ENV=styleguide styleguidist server",
+    "styleguide:build": "styleguidist build"
+  },
+  "jest": {
+    "setupFiles": [
+      "./jest.setup.js",
+      "./__mocks__/browserMocks.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "moduleNameMapper": {
+      "\\.svg$": "<rootDir>/__mocks__/fileMock.js"
+    }
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "classnames": "^2.2.5",
+    "downshift": "^1.31.2",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-jss": "^8.4.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "cross-env": "^5.1.4",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.3",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "2.10.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "7.7.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "img-loader": "^2.0.1",
+    "jest": "^22.4.3",
+    "prettier": "^1.11.1",
+    "react-styleguidist": "^7.0.3",
+    "svg-inline-loader": "^0.8.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
+}

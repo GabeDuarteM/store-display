@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <SortDropdownFilterContainer /> should match component's propTypes snapshot 1`] = `
+Object {
+  "onChange": [Function],
+  "selectedItem": [Function],
+}
+`;
+
+exports[`COMPONENT: <SortDropdownFilterContainer /> should match component's snapshot 1`] = `
+<DropdownFilter
+  handleChangeMenuIsOpen={[Function]}
+  items={
+    Array [
+      Object {
+        "id": "price-asc",
+        "text": "Price: low to high",
+      },
+      Object {
+        "id": "price-desc",
+        "text": "Price: high to low",
+      },
+      Object {
+        "id": "rating-asc",
+        "text": "Rating: low to high",
+      },
+      Object {
+        "id": "rating-desc",
+        "text": "Rating: high to low",
+      },
+    ]
+  }
+  label="Sort by"
+  menuIsOpen={false}
+  onChange={[Function]}
+  selectedItem={
+    Object {
+      "id": "price-asc",
+      "text": "Price: low to high",
+    }
+  }
+  width={200}
+/>
+`;

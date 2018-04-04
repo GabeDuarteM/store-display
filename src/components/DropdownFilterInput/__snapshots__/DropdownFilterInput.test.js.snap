@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <DropdownFilterInput /> should match component's propTypes snapshot 1`] = `
+Object {
+  "classes": [Function],
+  "getButtonProps": [Function],
+  "handleChangeMenuIsOpen": [Function],
+  "isOpen": [Function],
+  "selectedItem": [Function],
+  "width": [Function],
+}
+`;
+
+exports[`COMPONENT: <DropdownFilterInput /> should match component's snapshot 1`] = `
+<div
+  className="DropdownFilterInput-dropdownFilter DropdownFilterInput-dropdownFilter"
+  onClick={[Function]}
+  role="button"
+>
+  selectedItem
+  <Jss(SvgIcon)
+    className="DropdownFilterInput-downArrow DropdownFilterInput-downArrow isOpen"
+    color="#9B9B9B"
+    height="auto"
+    src=""
+    width={9}
+  />
+</div>
+`;
+
+exports[`COMPONENT: <DropdownFilterInput /> should match component's style snapshot 1`] = `
+Object {
+  "downArrow": Object {
+    "&.isOpen": Object {
+      "transform": "rotateX(180deg)",
+    },
+    "marginLeft": "auto",
+    "paddingRight": 16,
+  },
+  "dropdownFilter": Object {
+    "&:active": Object {
+      "border": "1px solid #6e8be3",
+    },
+    "WebkitAppearance": "none !important",
+    "alignItems": "center",
+    "backgroundColor": "white",
+    "border": [Function],
+    "borderRadius": 3,
+    "boxSizing": "border-box",
+    "color": "#585858",
+    "display": "flex",
+    "fontSize": 12,
+    "height": 36,
+    "paddingLeft": 15,
+    "width": [Function],
+  },
+}
+`;

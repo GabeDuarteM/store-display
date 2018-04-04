@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENT: <ProductCardListContainer /> should match component's snapshot 1`] = `
+<ProductCardList
+  className={null}
+  classes={
+    Object {
+      "loadMoreButton": "ProductCardList-loadMoreButton",
+      "loadMoreButtonRoot": "ProductCardList-loadMoreButtonRoot",
+      "productCard": "ProductCardList-productCard",
+      "productCardList": "ProductCardList-productCardList",
+    }
+  }
+  handleClickLoadMore={[Function]}
+  isLastPage={null}
+  products={
+    Array [
+      Object {
+        "brand": "VERO MODA",
+        "gender": "man",
+        "id": "5a518050e421e659c6e24c46",
+        "imgUrl": "https://tru-spec-cdn.azureedge.net/media/1175/1060f.png",
+        "isNew": true,
+        "name": "Perkinsjames Clinegalloway",
+        "price": 282.1,
+        "rating": 10,
+      },
+      Object {
+        "brand": "NIKE",
+        "gender": "woman",
+        "id": "5a51805044d1030570bcab76",
+        "imgUrl": "https://tru-spec-cdn.azureedge.net/media/1025/1436f.png",
+        "isNew": false,
+        "name": "Henriettagillespie Dellavargas",
+        "price": 296.55,
+        "rating": 4,
+      },
+    ]
+  }
+  toggleIsWishlisted={[Function]}
+/>
+`;
